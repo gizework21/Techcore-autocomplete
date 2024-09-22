@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/main.css */
+@font-face {
+  /* font-family: "BRFirma-Bold";
+  src: url("/fonts/BRFirma-Bold.woff2") format("woff2"),
+    url("/fonts/BRFirma-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; */
+
+  font-family: "BRFirma-Black";
+  src: local("BR Firma Black"),
+    url("./assets/br-firma/BR Firma Black.otf") format("opentype");
+
+  font-family: "BRFirma-Bold";
+  src: local("BR Firma Bold"),
+    url("./assets/br-firma/BR Firma Bold.otf") format("opentype");
+
+  font-family: "BRFirma-Medium";
+  src: local("BR Firma Medium"),
+    url("./assets/br-firma/BR Firma Medium.otf") format("opentype");
+
+  font-family: "BRFirma-Regular";
+  src: local("BR Firma Regular"),
+    url("./assets/br-firma/BR Firma Regular.otf") format("opentype");
+
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url("./assets/poppins/Poppins-Regular.ttf") format("opentype");
+}
+
+body {
+  background-color: #f8f8f8;
+
+}
