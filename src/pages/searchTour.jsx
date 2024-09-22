@@ -134,7 +134,7 @@ const AutocompleteSearch = () => {
               <p className="text-[#818083] text-[14px]">When</p>
               <input
                 type="date"
-                className="border -mt-2 border-gray-300 p-2 max-sm:w-[400px] rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="border -mt-2 border-gray-300 p-2 max-sm:w-[403px] rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={date}
                 onChange={(e) => setDate(e.target.value)}
               />
