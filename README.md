@@ -7,4 +7,4 @@ How to run this project
 2. go to the project directory  write this command on the terminal "npm install"
 3. after install dependencies and packages run this on the terminal "npm run dev"
 
-Here is the Deployed site : https://techcore-africa.vercel.app/
+Here is the Deployed site : https://gizework-techcore-autocomplete.vercel.app/
